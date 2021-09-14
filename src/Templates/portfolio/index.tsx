@@ -88,7 +88,12 @@ export default function PortfolioTemplate({
               Github
             </a>
           </Button>
-          <Button>Linkedin</Button>
+
+          <Button>
+            <a target="_blank" href={portfolio.linkVercel} rel="noreferrer">
+              Vercel
+            </a>
+          </Button>
         </S.BtnContainer>
       </S.Content>
     </>

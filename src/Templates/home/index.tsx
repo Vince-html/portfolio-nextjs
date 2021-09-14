@@ -15,11 +15,20 @@ export default function HomeTemplate({ portfolios }: MapProps) {
       />
 
       <HeaderTop />
-      <S.Section>
-        {portfolios?.map((portfolio) => (
-          <Card key={portfolio.id} {...portfolio} />
-        ))}
-      </S.Section>
+      <S.Content>
+        <S.Heading>Meu Portfólio</S.Heading>
+        <S.Paragraph>
+          Conhecido também por Vince , tenho 32 anos de idade, casado e um filho
+          de 3 anos, gosto de games, de surf e da familia. Sou desenvolvedor com
+          foco em aplicações web usando React e Next, Mas sempre aberto a novas
+          tecnologias e buscando inovações.
+        </S.Paragraph>
+        <S.Section>
+          {portfolios?.map((portfolio) => (
+            <Card key={portfolio.id} {...portfolio} />
+          ))}
+        </S.Section>
+      </S.Content>
     </>
   )
 }
