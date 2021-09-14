@@ -1,10 +1,9 @@
-import HomeTemplate from 'Templates/home'
-import { MapProps } from 'components/Map'
+import HomeTemplate, { PortfolioProps } from 'Templates/home'
 import { GET_PORTFOLIO } from 'graphql/queries'
 import client from 'graphql/client'
 import { GetPortfolioQuery } from 'graphql/generated/graphql'
 
-export default function Home({ portfolios }: MapProps) {
+export default function Home({ portfolios }: PortfolioProps) {
   return <HomeTemplate portfolios={portfolios} />
 }
 

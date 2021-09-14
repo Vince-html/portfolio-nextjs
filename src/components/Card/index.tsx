@@ -1,8 +1,9 @@
 import * as S from './styles'
 
 import Button from 'components/Button'
-import { Portfolio } from '../Map/index'
+
 import { useRouter } from 'next/dist/client/router'
+import { Portfolio } from 'Templates/home'
 
 const Card = (portfolio: Portfolio) => {
   const router = useRouter()

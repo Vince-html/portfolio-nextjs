@@ -3,7 +3,6 @@ import HeaderTop from 'components/Header'
 import { NextSeo } from 'next-seo'
 import { useRouter } from 'next/dist/client/router'
 import React from 'react'
-import Link from 'next/link'
 import * as S from './styles'
 
 type Icon = {
