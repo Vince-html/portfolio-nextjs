@@ -13,7 +13,7 @@ const entry = keyframes`
 
 export const Content = styled.section`
   max-width: 60rem;
-  animation: ${entry} 0.5s ease-in-out forwards;
+  /* animation: ${entry} 0.5s ease-in-out forwards; */
 
   border: 2px solid #ffd100;
   margin-top: 3rem;

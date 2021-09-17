@@ -1,9 +1,9 @@
 import PageTemplate from 'Templates/Pages'
-import client from 'graphql/client'
+// import client from 'graphql/client'
 import { useRouter } from 'next/dist/client/router'
-import { GetStaticProps } from 'next'
-import { GET_PORTFOLIO_BY_SLUG } from 'graphql/queries'
-import { GetPorfolioBySlugQuery } from 'graphql/generated/graphql'
+// import { GetStaticProps } from 'next'
+// import { GET_PORTFOLIO_BY_SLUG } from 'graphql/queries'
+// import { GetPorfolioBySlugQuery } from 'graphql/generated/graphql'
 
 export default function Page() {
   const router = useRouter()

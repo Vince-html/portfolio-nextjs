@@ -1,21 +1,10 @@
 {
-  "name": "React Avançado - Boilerplate",
-  "short_name": "React Avançado",
-  "icons": [
-    {
-      "src": "/img/icon-192.png",
-      "type": "image/png",
-      "sizes": "192x192"
-    },
-    {
-      "src": "/img/icon-512.png",
-      "type": "image/png",
-      "sizes": "512x512"
-    }
-  ],
-  "background_color": "#06092B",
-  "description": "Boilerlate utilizando Typescript, React, NextJS e Styled Components!",
+  "name": "Portfolio Vince",
+  "short_name": "Portfolio Vince",
+
+  "background_color": "#202020",
+  "description": "Portfolio do Vince, Feito em NextJs e Graphql",
   "display": "fullscreen",
   "start_url": "/",
-  "theme_color": "#06092B"
+  "theme_color": "#202020"
 }

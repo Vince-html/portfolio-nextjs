@@ -2,8 +2,6 @@ import Button from 'components/Button'
 import HeaderTop from 'components/Header'
 import { useEffect, useState, useRef } from 'react'
 
-import Photo from '../../assets/vince.jpeg'
-
 import * as S from './styles'
 
 const PageTemplate = () => {
@@ -53,9 +51,6 @@ const PageTemplate = () => {
               </S.Paragraph>
             </S.Paragraph>
           </div>
-          <S.ContainerImg>
-            <S.StyledImage src={Photo} />
-          </S.ContainerImg>
         </S.Container>
         <S.BtnContainer>
           <Button>GitHub</Button>

@@ -1,15 +1,5 @@
-import styled, { keyframes } from 'styled-components'
+import styled from 'styled-components'
 import Image from 'next/image'
-
-const entry = keyframes`
-  from {
-    transform: translateX(-500px);
-  }
-
-  to {
-    transform: translateX(0px);
-  }
-`
 
 export const Content = styled.section`
   display: flex;
@@ -17,15 +7,15 @@ export const Content = styled.section`
   justify-content: center;
   flex-direction: column;
   max-width: var(--container);
-  animation: ${entry} 0.5s ease-in-out forwards;
+
   margin: auto;
   border: 2px solid #ffd100;
   margin-top: 3rem;
   padding: 2rem;
   border-radius: 50px 0 50px 0;
 
-  @media (max-width: 1024px) {
-    margin: 0.5rem;
+  @media (max-width: 1240px) {
+    margin: 1rem;
   }
   @media (max-width: 768px) {
     display: block;
@@ -69,9 +59,6 @@ export const Paragraph = styled.p`
 `
 
 export const Container = styled.div`
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-
   gap: 3rem;
   padding: 0.5rem;
 

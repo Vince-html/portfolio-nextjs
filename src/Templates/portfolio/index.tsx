@@ -38,16 +38,7 @@ export default function PortfolioTemplate({
   portfolio
 }: PortfolioTemplateProps) {
   const router = useRouter()
-  console.log(
-    portfolio.icons.map((icon: Icon) => (
-      <S.StyledImage
-        key={icon.url}
-        src={icon.url}
-        width={icon.width}
-        height={icon.height}
-      />
-    ))
-  )
+
   if (router.isFallback) return null
   return (
     <>

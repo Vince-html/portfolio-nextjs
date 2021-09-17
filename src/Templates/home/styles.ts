@@ -1,18 +1,7 @@
-import styled, { keyframes } from 'styled-components'
-
-const entry = keyframes`
-  from {
-    transform: translateX(-500px);
-  }
-
-  to {
-    transform: translateX(0px);
-  }
-`
+import styled from 'styled-components'
 
 export const Content = styled.section`
   max-width: 80rem;
-  animation: ${entry} 0.5s ease-in-out forwards;
 
   margin-top: 3rem;
   padding: 2rem;
@@ -30,6 +19,13 @@ export const Section = styled.section`
   justify-content: center;
   align-items: center;
   margin-top: 3rem;
+  @media (max-width: 980px) {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+  @media (max-width: 768px) {
+    display: block;
+  }
 `
 export const Heading = styled.h1`
   text-align: center;
