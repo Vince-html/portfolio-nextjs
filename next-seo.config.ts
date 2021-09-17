@@ -3,7 +3,7 @@ export default {
     type: 'website',
     locale: 'en_US',
     url: 'https://www.url.ie/',
-    site_name: 'Trips'
+    site_name: 'Portfolio do Vince'
   },
   twitter: {
     handle: '@handle',
