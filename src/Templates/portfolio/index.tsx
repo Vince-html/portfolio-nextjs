@@ -44,7 +44,7 @@ export default function PortfolioTemplate({
     <>
       <NextSeo
         title={`${portfolio.heading} - Meu Portfólio`}
-        description="Um projeto de portifolio relacionado a surf"
+        description="Site Portfolio do Vince, onde mostro um pouco do meu conhecimento e um pouco sobre mim."
       />
       <HeaderTop />
       <S.Content>
