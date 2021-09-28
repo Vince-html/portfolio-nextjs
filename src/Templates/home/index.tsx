@@ -35,7 +35,7 @@ export default function HomeTemplate({ portfolios }: PortfolioProps) {
     <>
       <NextSeo
         title="Portfolio do Vince"
-        description="Um projeto de portifolio relacionado a surf"
+        description="Site Portfolio do Vince, onde mostro um pouco do meu conhecimento e um pouco sobre mim."
         canonical="https://localhost:3000"
       />
 
