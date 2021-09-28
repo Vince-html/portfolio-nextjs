@@ -63,6 +63,22 @@ export const Container = styled.div`
   padding: 0.5rem;
 
   margin-bottom: 1rem;
+
+  div .image_container {
+    margin-top: 1rem;
+  }
+
+  div h2 {
+    margin-top: 1rem;
+    &:after {
+      margin-top: 0.5rem;
+      content: ' ';
+      height: 2px;
+      width: 15rem;
+      display: block;
+      background: #ffd100;
+    }
+  }
   @media (max-width: 768px) {
     display: block;
     justify-content: center;

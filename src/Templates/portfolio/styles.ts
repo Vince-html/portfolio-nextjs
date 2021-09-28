@@ -1,19 +1,8 @@
-import styled, { keyframes } from 'styled-components'
+import styled from 'styled-components'
 import Image from 'next/image'
-
-const entry = keyframes`
-  from {
-    transform: translateX(-500px);
-  }
-
-  to {
-    transform: translateX(0px);
-  }
-`
 
 export const Content = styled.section`
   max-width: 60rem;
-  /* animation: ${entry} 0.5s ease-in-out forwards; */
 
   border: 2px solid #ffd100;
   margin-top: 3rem;

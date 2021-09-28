@@ -24,6 +24,10 @@ export const Container = styled.div`
   p {
     margin-bottom: 0.5rem;
   }
+  @media (max-width: 768px) {
+    width: 20rem;
+    height: 20rem;
+  }
 `
 export const ContainerImg = styled.div`
   max-width: 100%;

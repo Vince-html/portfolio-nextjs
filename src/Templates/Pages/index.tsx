@@ -50,6 +50,21 @@ const PageTemplate = () => {
                 escolha.
               </S.Paragraph>
             </S.Paragraph>
+
+            <h2>Conhecimentos:</h2>
+            <div className="image_container">
+              <S.StyledImage src="/img/iconJs.svg" width={70} height={70} />
+              <S.StyledImage src="/img/iconReact.svg" width={70} height={70} />
+              <S.StyledImage src="/img/iconStyled.png" width={70} height={70} />
+              <S.StyledImage src="/img/iconNext.svg" width={70} height={70} />
+              <S.StyledImage src="/img/iconSass.svg" width={70} height={70} />
+              <S.StyledImage
+                src="/img/iconTypescript.svg"
+                width={70}
+                height={70}
+              />
+              <S.StyledImage src="/img/iconHtml.svg" width={70} height={70} />
+            </div>
           </div>
         </S.Container>
         <S.BtnContainer>
