@@ -104,6 +104,11 @@ export const BtnContainer = styled.div`
   justify-content: space-around;
   margin: 0;
   margin-top: 1rem;
+
+  @media (max-width: 768px) {
+    flex-direction: column;
+    gap: 1rem;
+  }
   &:hover {
     color: black;
   }
