@@ -33,7 +33,7 @@ export const getStaticProps: GetStaticProps = async ({ params }) => {
   if (!portfolio) return { notFound: true }
 
   return {
-    revalidate: 6000,
+    revalidate: 60,
     props: {
       portfolio
     }

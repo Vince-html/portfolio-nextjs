@@ -104,4 +104,20 @@ export const BtnContainer = styled.div`
   justify-content: space-around;
   margin: 0;
   margin-top: 1rem;
+  &:hover {
+    color: black;
+  }
+
+  button {
+    &:hover {
+      color: black;
+    }
+
+    a {
+      padding: 0.75rem 4.25rem;
+      &:hover {
+        color: black;
+      }
+    }
+  }
 `

@@ -68,8 +68,25 @@ const PageTemplate = () => {
           </div>
         </S.Container>
         <S.BtnContainer>
-          <Button>GitHub</Button>
-          <Button>Linkedin</Button>
+          <Button>
+            <a
+              target="_blank"
+              href="https://github.com/Vince-html"
+              rel="noreferrer"
+            >
+              GitHub
+            </a>
+          </Button>
+          <Button>
+            {' '}
+            <a
+              target="_blank"
+              href="https://www.linkedin.com/in/vicente-augusto-282b37211/"
+              rel="noreferrer"
+            >
+              Linkedin
+            </a>
+          </Button>
         </S.BtnContainer>
       </S.Content>
     </>
