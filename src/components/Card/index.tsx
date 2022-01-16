@@ -8,7 +8,7 @@ import { Portfolio } from 'Templates/home'
 const Card = (portfolio: Portfolio) => {
   const router = useRouter()
   const url = portfolio.imgPrimary
-  console.log(url)
+
   return (
     <S.Container>
       <S.ContainerImg>

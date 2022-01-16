@@ -6,7 +6,7 @@ import { Header, MenuH, NavLink, Button, Container } from './styles'
 
 const HeaderTop = () => {
   const [visible, setVisible] = useState(false)
-  console.log(visible)
+
   return (
     <>
       <Button
