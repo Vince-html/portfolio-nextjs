@@ -5,10 +5,11 @@ pipeline {
             steps {
                echo "Teste Build"
             }
-        },
+        }
         stage("Deploy Master") {
+          steps {
           build job: 'deploy-master', parameters: [string(name: 'BRANCH', value: 'master')]
         }
-
+      }
     }
 }
