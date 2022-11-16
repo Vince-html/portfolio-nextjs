@@ -20,7 +20,7 @@ const Card = (portfolio: Portfolio) => {
           router.push(`/portfolio/${portfolio.slug}`)
         }}
       >
-        Saiba mais aqui.......
+        Saiba mais aqui...
       </Button>
     </S.Container>
   )
